@@ -30,6 +30,7 @@
         "tags": ["pet"],
         "summary": "uploads an image",
         "description": "",
+        "deprecated": true,
         "operationId": "uploadFile",
         "consumes": ["multipart/form-data"],
         "produces": ["application/json"],

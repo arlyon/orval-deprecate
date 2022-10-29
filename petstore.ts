@@ -135,6 +135,7 @@ type AwaitedInput<T> = PromiseLike<T> | T;
 type Awaited<O> = O extends AwaitedInput<infer T> ? T : never;
 
 /**
+ * @deprecated
  * @summary uploads an image
  */
 export const uploadFile = (
